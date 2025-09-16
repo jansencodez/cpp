@@ -1,0 +1,18 @@
+{
+  "server": {
+    "port": 8080,
+    "host": "0.0.0.0",
+    "threads": 4,
+    "timeout": 30
+  },
+  "logging": {
+    "level": "info",
+    "file": "server.log"
+  },
+  "cors": {
+    "enabled": true,
+    "origins": ["*"],
+    "methods": ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+    "headers": ["Content-Type", "Authorization"]
+  }
+}
