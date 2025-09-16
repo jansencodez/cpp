@@ -5,6 +5,7 @@
 
 LessonLoader::LessonLoader() {
     // Try multiple possible locations for lessons directory
+    
     std::vector<std::filesystem::path> possiblePaths = {
         std::filesystem::current_path() / "lessons",                    // build/lessons
         std::filesystem::current_path().parent_path() / "lessons",      // lessons/
